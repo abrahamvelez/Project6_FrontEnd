@@ -8,9 +8,30 @@ body {
   background: url('svgs/background.svg') #edeff0;
 }
 
+/*Logo Icon*/
 svg#Layer_1{
   width: 140px;
   height: 120px;
+
+}
+/*Menu Icons*/
+svg#Layer_2{
+  width: 14px;
+  height: 12px;
+
+}
+/*Hover function*/
+.burbuja:hover span,
+.corazon:hover span,
+.pin:hover span
+ {
+  color:red;
+}
+
+.burbuja:hover .st0,
+.pin:hover .st0,
+.corazon:hover .st0{
+  fill:red;
 
 }
 
